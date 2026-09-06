@@ -35,6 +35,7 @@ curl -fsSL https://raw.githubusercontent.com/olankens/repowipe/HEAD/scripts/repo
 ### RUN WITH CUSTOM MESSAGE
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/olankens/repowipe/HEAD/scripts/repowipe.sh | bash -s -- \
-  "chore: obliterate the repository and recreate the project"
+address="https://raw.githubusercontent.com/olankens/repowipe/HEAD/scripts/repowipe.sh"
+message="chore: obliterate the repository and recreate the project"
+curl -fsSL "$address" | bash -s -- "$message"
 ```
