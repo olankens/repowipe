@@ -242,7 +242,7 @@ main() {
 
 	# Handle globals
 	local heading="REPOWIPE"
-	local version="0.0.0" # x-release-please-version
+	local version="1.0.0" # x-release-please-version
 	local website="https://github.com/olankens/repowipe"
 
 	# Handle parameters
